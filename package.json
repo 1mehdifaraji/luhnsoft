@@ -1,0 +1,36 @@
+{
+  "name": "luhnsoft",
+  "version": "1.0.0",
+  "description": "credit card validation, IMEI validation, luhn algorithm, luhn validation, luhn check, luhn js, luhnjs, luhnsoft",
+  "author": "Mehdi Faraji <mahdifarajideveloper@gmail.com> (https://mehdifaraji.ir)",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "homepage": "https://github.com/1mehdifaraji/luhnsoft",
+  "scripts": {
+    "build": "tsup",
+    "dev": "vitest",
+    "test": "tsup && vitest run"
+  },
+  "keywords": [
+    "luhn",
+    "credit-card",
+    "browserify",
+    "validation",
+    "imei",
+    "js"
+  ],
+  "devDependencies": {
+    "tsup": "^8.3.5",
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.5"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1mehdifaraji/luhnsoft.git"
+  },
+  "bugs": {
+    "url": "https://github.com/1mehdifaraji/luhnsoft/issues"
+  }
+}
